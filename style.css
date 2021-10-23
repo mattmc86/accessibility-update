@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*The below sections relate to the header section */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,6 +52,8 @@ p {
     font-size: 16px;
 }
 
+/*This is the main image*/
+
 .hero {
     height: 800px;
     width: 100%;
@@ -60,21 +63,14 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
+/*The below relate to the section on the right of the screen*/
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+
 
 .benefits {
     margin-right: 20px;
@@ -133,6 +129,20 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+
+}
+
+/*The below relates to the 3 cards on the left of the screen*/
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
 .search-engine-optimization {
@@ -189,6 +199,7 @@ p {
     font-size: 36px;
 }
 
+/*The below relate to the footer section*/
 .footer {
     padding: 30px;
     clear: both;
